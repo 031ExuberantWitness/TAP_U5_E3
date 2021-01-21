@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:columnCount="4"
+    android:rowCount="5"
+    android:padding="20dp">
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:textAlignment="textEnd"
+        android:ems="10"
+        android:text="Escribir un numero"
+        android:layout_columnSpan="4">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button9" style="@style/botonesCalculadora"
+        android:text="9"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/button8"  style="@style/botonesCalculadora"
+        android:text="8"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/button7"  style="@style/botonesCalculadora"
+        android:text="7"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/buttonDev"  style="@style/botonesCalculadora"
+        android:text="/"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/button6"  style="@style/botonesCalculadora"
+        android:text="6"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/button5" style="@style/botonesCalculadora"
+        android:text="5"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/button4"  style="@style/botonesCalculadora"
+        android:text="4"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/buttonMul"  style="@style/botonesCalculadora"
+        android:text="X"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/button3"  style="@style/botonesCalculadora"
+        android:text="3"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/button2"  style="@style/botonesCalculadora"
+        android:text="2"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/button1" style="@style/botonesCalculadora"
+        android:text="1"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/buttonMinus"  style="@style/botonesCalculadora"
+        android:text="-"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/button0"  style="@style/botonesCalculadora"
+        android:text="0"
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/buttonDot"  style="@style/botonesCalculadora"
+        android:text="."
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/buttonIgual"  style="@style/botonesCalculadora"
+        android:text="="
+        android:backgroundTint="#252525"/>
+    <Button
+        android:id="@+id/buttonMas"  style="@style/botonesCalculadora"
+        android:text="+"
+        android:backgroundTint="#252525"/>
+
+</GridLayout>

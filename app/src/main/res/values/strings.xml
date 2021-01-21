@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TAP_U5_E3</string>
+
+    <array name="opcionesprincipales">
+        <item>Objetos basicos</item>
+        <item>Linear Layout</item>
+        <item>Grid Layout</item>
+        <item>Table Layout</item>
+    </array>
+
+    <array name="itemsspiner">
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Amarillo</item>
+        <item>Cafe</item>
+    </array>
+</resources>
